@@ -35,8 +35,9 @@ class ProductController {
   }
 
   @GetMapping(path = "/logout")
-  public String logout(HttpServletRequest request) throws ServletException {
+  public ModelAndView logout(HttpServletRequest request) throws ServletException {
      request.logout();
-     return "/";
+     ModelAndView mv = new ModelAndView("redirect:/");
+     return mv;
   }
 }
