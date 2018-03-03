@@ -74,3 +74,5 @@ the service).
 
 [How to create keycloak client role programmatically and assign to user
 ](https://stackoverflow.com/questions/43222769/how-to-create-keycloak-client-role-programmatically-and-assign-to-user)
+[Authentication with Spring Boot, Angular 2 and Keycloak](http://slackspace.de/articles/authentication-with-spring-boot-angular-2-and-keycloak/)
+[CORS与Spring Security(Springboot)](https://www.jianshu.com/p/27060722843b)
